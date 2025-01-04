@@ -1,0 +1,13 @@
+prefix=D:/GenAI multiple PDFs/venv/Library
+exec_prefix=D:/GenAI multiple PDFs/venv/Library
+libdir=D:/GenAI multiple PDFs/venv/Library/lib
+sharedlibdir=D:/GenAI multiple PDFs/venv/Library/lib
+includedir=D:/GenAI multiple PDFs/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
