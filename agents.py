@@ -1,5 +1,5 @@
 from crewai import Agent
-from tools import yt_tool
+from tools import yt_tool # type: ignore
 from dotenv import load_dotenv
 import os
 
